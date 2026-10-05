@@ -63,7 +63,7 @@
                 </div>
                 <div class="job-meta-item">
                     <span class="meta-label">Publicado em</span>
-                    <span class="meta-value"><?= htmlspecialchars($vaga['data_criacao']) ?></span>
+                    <span class="meta-value"><?= date('d/m/Y', strtotime($filtrarvaga['data_criacao'])) ?></span>
                 </div>
             </div>
 
